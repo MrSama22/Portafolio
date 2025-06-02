@@ -1,0 +1,16 @@
+// imprimir los ´primeros 10 numeros de 3 en 3
+// 1 - 4 .-7 -10
+
+let maximo = 10, minimo = -10;
+console.log("incrementos 3 en 3");
+
+for(let contador = 1;contador <=maximo;contador += 3){
+    console.log(contador);
+}
+
+console.log("decrementos 3 en 3");
+
+
+for(let contador = 1;contador >= minimo;contador-=3){
+    console.log(contador)
+}
